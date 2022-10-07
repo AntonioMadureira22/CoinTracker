@@ -1,5 +1,6 @@
 import React from 'react'
 import TokenItems from './TokenItems'
+import './Tokens.css'
 
 const Tokens = (props) => {
   return (

@@ -1,0 +1,52 @@
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a5acd;
+    box-shadow: 0px 0px 12px #483d8d;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.token-name{
+    margin-left: .4rem;
+}
+
+.token-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a5acd;
+    box-shadow: 0px 0px 12px #483d8d;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    
+}
+
+.token-row:hover{
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+img{
+   height: 40px;
+   margin-right: 8px;
+   width: auto;
+}
+
+.img-symbol{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 720px) {
+    .hide-mobile{
+        display: none;
+    }
+}
